@@ -11,6 +11,7 @@ export const Shop = () => {
         <h1>Shopping Center</h1>
       </div>
       <div className="products">
+        {" "}
         {PRODUCTS.map ((product) => (
             <Product data = {product}/>
         ))}
