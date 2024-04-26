@@ -7,8 +7,8 @@ export const CartItem = (props) => {
     useContext(ShopContext);
 
   return (
-    <div className="cartItem">
-      <img src={productImage} />
+    <div className="cartItem" >
+      <img src={productImage} alt="Product"/>
       <div className="description">
         <p>
           <b>{productName}</b>
